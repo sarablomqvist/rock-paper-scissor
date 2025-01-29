@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sten Sax Påse</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="play-script.js" defer></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cutive+Mono&family=Shadows+Into+Light&family=Tangerine:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <header>
+        <a href="start.html"
+            ><img src="images/arrow.png" class="arrow desktop-only" alt="Bakåt"
+        /></a>
+        <h1 class="h1-letsPlay">Nu spelar vi!</h1>
+    </header>
+    <body>
+        <div class="result-container">
+            <div class="gamer1"></div>
+            <div class="result-board">
+                <span id="user-score">0</span>
+                <span>:</span>
+                <span id="computer-score">0</span>
+            </div>
+            <div class="gamer2">Datorn</div>
+        </div>
+
+        <div class="containerMove"></div>
+        <div class="result-text"></div>
+
+        <div class="choices">
+            <img
+                src="images/rock.png"
+                alt="Sten"
+                class="rock-paper-scissor"
+                id="rock"
+            />
+
+            <img
+                src="images/scissor.png"
+                alt="Sax"
+                class="rock-paper-scissor"
+                id="scissor"
+            />
+
+            <img
+                src="images/paper.png"
+                alt="Påse"
+                class="rock-paper-scissor"
+                id="paper"
+            />
+        </div>
+
+        <!-- <button id="play">Spela</button> -->
+        <div class="rules">
+            <h2 class="h2-rules">Regler</h2>
+            <p class="p-rules">
+                Sten krossar sax<br />
+                sax klipper påse<br />
+                påse täcker sten
+            </p>
+        </div>
+    </body>
+    <footer>
+        <a href="start.html"
+            ><img src="images/arrow.png" class="arrow mobile-only" alt="Bakåt"
+        /></a>
+    </footer>
+</html>

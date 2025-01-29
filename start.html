@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Redo för spel?</title>
+        <script src="start-script.js" defer></script>
+        <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Sten - Sax - Påse</h1>
+        <div></div>
+        <form action="" class="myForm">
+            <div class="container-form">
+                <div>
+                    <label for="name" class="inputContent">Vem ska spela?</label>
+                    <input type="name" name="user" placeholder="Namn" id="user" />
+                </div>
+                <div>
+                    <label for="theme" class="inputContent">Välj ett tema</label>
+                    <select name="theme" id="theme">
+                        <option value="summer">Sommar</option>
+                        <option value="fall">Höst</option>
+                        <option value="winter">Vinter</option>
+                        <option value="spring">Vår</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="age" class="inputContent">Ålder:</label>
+                    <input type="number" id="age" class="inputContent" min="5" step="1" required />
+                </div>
+            </div>
+            <input type="submit" id="playBtn" value="Spela" required />
+        </form>
+    </body>
+</html>

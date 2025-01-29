@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sten Sax Påse Ödla Spock</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="play-script.js" defer></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Cutive+Mono&family=Shadows+Into+Light&family=Tangerine:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <header>
+        <a href="start.html"><img src="images/arrow.png" class="arrow desktop-only" alt="Bakåt" /></a>
+        <h1 class="h1-challenge">Nu spelar vi<br />sten, sax, påse, ödla & spock!</h1>
+    </header>
+    <body>
+        <div class="result-container">
+            <div class="gamer1"></div>
+            <div class="result-board">
+                <span id="user-score">0</span>
+                <span>:</span>
+                <span id="computer-score">0</span>
+            </div>
+            <div class="gamer2">Datorn</div>
+        </div>
+        <div class="containerMove"></div>
+
+        <div class="result-text"></div>
+
+        <div class="choices">
+            <img src="images/rock2.png" alt="Sten" class="rock-paper-scissor" id="rock" />
+
+            <img src="images/scissor2.png" alt="Sax" class="rock-paper-scissor" id="scissor" />
+
+            <img src="images/paper2.png" alt="Påse" class="rock-paper-scissor" id="paper" />
+            <img src="images/spock.png" alt="Spock" class="rock-paper-scissor desktop-only" id="spock" />
+            <img src="images/lizard.png" alt="Ödla" class="rock-paper-scissor desktop-only" id="lizard" />
+        </div>
+        <div class="choices">
+            <img src="images/spock.png" alt="Spock" class="rock-paper-scissor mobile-only" id="spock" />
+            <img src="images/lizard.png" alt="Ödla" class="rock-paper-scissor mobile-only" id="lizard" />
+        </div>
+        <div class="rules-challenge">
+            <h2 class="h2-rules">Regler</h2>
+            <p class="p-rules">
+                Sax klipper påse<br />
+                påse täcker sten<br />
+                sten krossar ödla<br />
+                ödla förgiftar spock<br />
+                spock krossar sax<br />
+                sax halshugger ödla<br />
+                ödla äter upp påse<br />
+                påse motbevisar Spock<br />
+                spock förångar Sten<br />
+                sten krossar sax
+            </p>
+        </div>
+    </body>
+    <footer>
+        <a href="start.html"><img src="images/arrow.png" class="arrow mobile-only" alt="Bakåt" /></a>
+    </footer>
+</html>
